@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.image{
+    width: 42px;
+    height: 42px;
+    border-radius: 20px;
+}
+.inp{
+    border-radius: 25px;
+    width: 5cm;
+    height: .7cm;
+    position: relative;
+    top: 3px;
+    border: 2px 2px 2px 2px black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.left-bar{
+    display: flex;
+    align-items: center;
+}
+
+.right-bar{
+    display: flex;
+    align-items: center;
+
+}
+.right{
+    margin-left: 1cm;
+    text-decoration: none;
+    color:white;
+}
+header{
+    padding: 10px 12px;
+    border-bottom: 2px solid black;
+    box-shadow: black;
+    background-color: darkslategrey;
+}
+.left{
+    margin-right: 1cm;
+}
+.right:hover{
+    background-color: blue;
+    padding: 12px 14px;
+    border-radius: 20px;
+}
+.card-img{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.card{
+    width: 310px;
+    border-radius: 25px;
+    padding: 12px 14px;
+    background-color: rgb(226, 223, 218);
+    box-shadow: 0 2px 5px gray;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transition-property: background-color;
+    transition-duration: 1900ms;
+}
+.card:hover{
+    background-color: rgb(241, 88, 126);
+    transform: rotateZ(340deg);
+}
+h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 1cm;
+}
+
+@media screen and (max-width:600px){
+    header{
+        width: 150.2%;
+    }
+    .inp{
+        border-radius: 25px;
+        width: 3cm;
+        height: .7cm;
+        position: relative;
+        top: 3px;
+        border: 2px 2px 2px 2px black;
+    }
+    .card{
+        width: 510px;
+        border-radius: 20px;
+        padding: 12px 14px;
+        background-color: rgb(226, 223, 218);
+        box-shadow: 0 2px 5px gray;
+        margin-left: 4px;
+        margin-right: 2px;
+        margin-top: 4px;
+        margin-bottom: 15px;
+        position: relative;
+        left: 2.7cm;
+    }
+    .card-img{
+        width: 400px;
+        height: 350px;
+        border-radius: 20px;
+    }
+    
+}
